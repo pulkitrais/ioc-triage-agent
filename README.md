@@ -38,7 +38,7 @@ The LLM is Google Gemini over plain REST. It tries `gemini-flash-latest` first a
 Needs Python 3.10+.
 
 ```bash
-git clone <repo-url> ioc-triage-agent && cd ioc-triage-agent
+git clone https://github.com/pulkitrais/ioc-triage-agent.git ioc-triage-agent && cd ioc-triage-agent
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt    # requests, ddgs

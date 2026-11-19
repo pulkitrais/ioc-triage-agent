@@ -1,0 +1,38 @@
+{
+  "goal": "is it malicious?",
+  "status": "needs_clarification",
+  "generated_at": "2026-11-19T09:38:42+05:30",
+  "plan": {
+    "understanding": "The analyst is asking 'is it malicious?', but has not provided any indicator (IP, domain, hash, or CVE) to investigate.",
+    "task_type": "ioc_investigation",
+    "assumptions": [
+      "No indicator was provided in the prompt."
+    ],
+    "done_when": "The analyst provides an indicator to investigate.",
+    "source": "llm",
+    "steps": []
+  },
+  "result": {
+    "verdict": "n/a",
+    "confidence": "low",
+    "summary": "I stopped before calling any tools because the goal is ambiguous. Could you please provide the indicator (IP address, domain, file hash, or CVE) you would like me to investigate?",
+    "findings": [],
+    "recommendations": [],
+    "gaps": [
+      "no tools were run"
+    ]
+  },
+  "self_check": {
+    "tool_calls": 0,
+    "failed_calls": 0,
+    "recovered_steps": 0,
+    "findings_supported": 0,
+    "findings_unsupported": [],
+    "notes": [
+      "stopped for clarification"
+    ],
+    "passed": true
+  },
+  "steps": [],
+  "sources": []
+}

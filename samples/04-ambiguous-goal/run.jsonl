@@ -1,0 +1,6 @@
+{"t": 0.0, "kind": "goal", "message": "is it malicious?"}
+{"t": 0.14, "kind": "retry", "message": "plan: gemini-flash-latest failed (429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-), retry 1 in 2s"}
+{"t": 2.3, "kind": "fallback", "message": "plan: giving up on gemini-flash-latest (429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-), skipping it for this run"}
+{"t": 3.03, "kind": "llm", "message": "plan: gemini-flash-lite-latest answered in 0.7s", "model": "gemini-flash-lite-latest", "purpose": "plan"}
+{"t": 3.03, "kind": "clarify", "message": "goal is ambiguous: Could you please provide the indicator (IP address, domain, file hash, or CVE) you would like me to investigate?"}
+{"t": 3.03, "kind": "stop", "message": "not guessing; returning the question to the user"}

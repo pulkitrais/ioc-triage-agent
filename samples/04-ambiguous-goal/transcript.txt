@@ -1,0 +1,18 @@
+
+== PLAN ==
+[   0.0s] GOAL      is it malicious?
+[   0.1s] RETRY     plan: gemini-flash-latest failed (429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-), retry 1 in 2s
+[   2.3s] FALLBACK  plan: giving up on gemini-flash-latest (429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-), skipping it for this run
+[   3.0s] LLM       plan: gemini-flash-lite-latest answered in 0.7s
+[   3.0s] CLARIFY   goal is ambiguous: Could you please provide the indicator (IP address, domain, file hash, or CVE) you would like me to investigate?
+[   3.0s] STOP      not guessing; returning the question to the user
+
+# Triage report
+
+**Goal:** is it malicious?
+
+**Status:** stopped, needs clarification
+
+I stopped before calling any tools because the goal is ambiguous. Could you please provide the indicator (IP address, domain, file hash, or CVE) you would like me to investigate?
+
+[   3.0s] SAVED     report and logs written to samples/04-ambiguous-goal/ (3 LLM calls)
